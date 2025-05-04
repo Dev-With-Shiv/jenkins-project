@@ -1,6 +1,7 @@
 services:
   app:
-    build: .
+    image:  "shivkumar16111987/javacicd-app:latest"
+#    build: .
     container_name: app-jenkins
     ports:
       - "8080:8080"
