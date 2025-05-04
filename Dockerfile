@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-jdk-slim
 WORKDIR /app
 COPY target/FirstJenkins-0.0.1-SNAPSHOT.jar FirstJenkins-0.0.1-SNAPSHOT.jar
 # Expose the application port (default 8080)
